@@ -17,9 +17,9 @@ function filterApiData(apiData, mandatoryKeys) {
 
       // for the case even one MK is missing, false, break
       /* The in operator returns true if
-       * the specified property is in the specified object
-       * or its prototype chain. anatomy: prop in object
-       * */
+        the specified property is in the specified object
+        or its prototype chain. anatomy: prop in object. similar:include for array
+        */
       if (!(mandatoryKey in apiDataObj)) {
         hasAllKeys = false;
         break;
