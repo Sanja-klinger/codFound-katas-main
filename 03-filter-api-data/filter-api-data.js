@@ -3,6 +3,7 @@
  *
  */
 function filterApiData(apiData, mandatoryKeys) {
+  // declare container to add objects scope general,  start empty
   let filteredData = [];
   //apiDataObj - parameter for the anonymous callback function
   // forEach(callbackFn)
