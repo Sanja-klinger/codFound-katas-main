@@ -49,7 +49,7 @@ describe("Filter API data", function () {
     ]);
   });
 
-  it("should filter all objects with an tags key", function () {
+  it("should filter all objects with a tags key", function () {
     chai.expect(filterApiData(apiData, ["tags"])).to.eql([
       {
         price: 0,
